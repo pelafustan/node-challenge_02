@@ -32,7 +32,6 @@ export const EditForm = ({ id, setModal }: { id: string; setModal: React.Dispatc
 
       setModal(false);
 
-      form.resetFields();
     } catch (err) {
       console.log(err);
     }
